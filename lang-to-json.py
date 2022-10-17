@@ -24,8 +24,6 @@ def main():
 
     f.close()
 
-    print(json_string)
-
     new_file = args.input.split(".lang")[0]+".json"
     open(new_file, "x")
     jf = open(new_file, "w")
